@@ -1,0 +1,15 @@
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\bin\Debug\Virtiality.exe.config
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\bin\Debug\Virtiality.exe
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\bin\Debug\Virtiality.pdb
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.csproj.AssemblyReference.cache
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\MainWindow.g.cs
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\App.g.cs
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality_MarkupCompile.cache
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality_MarkupCompile.lref
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\MainWindow.baml
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.g.resources
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.Properties.Resources.resources
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.csproj.GenerateResource.cache
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.csproj.CoreCompileInputs.cache
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.exe
+D:\MyFiles\CTF\KRDUCTF_2024_university\reverse\virtuality\src\Virtiality\Virtiality\obj\Debug\Virtiality.pdb

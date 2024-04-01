@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  cicada:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./static:/static
+      - ./templates:/templates
+    networks:
+      ctfnet:
+        ipv4_address: 10.0.0.60
+
+networks:
+  ctfnet:
+    external: true

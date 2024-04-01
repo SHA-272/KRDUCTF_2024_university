@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  web3:
+    build: .
+    restart: unless-stopped
+    expose:
+      - 5000
+    volumes:
+      - ./static:/app/static
+      - ./templates:/app/templates
+    networks:
+      ctfnet:
+        ipv4_address: 10.0.0.53
+
+networks:
+  ctfnet:
+    external: true

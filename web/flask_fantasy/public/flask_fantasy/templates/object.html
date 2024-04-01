@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Page</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#objectImage {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+    </style>
+</head>
+<body>
+    <img id="objectImage" data-src="{{ url_for('static', filename=image_path) }}" alt="Object Image" />
+    <script src="{{ url_for('static', filename='LazyLoad.js') }}"></script>
+</body>
+</html>

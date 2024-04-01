@@ -1,0 +1,5 @@
+flask
+functools
+flask_sqlalchemy
+jwt
+datetime

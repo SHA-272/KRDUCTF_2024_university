@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  telegrambot:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TOKEN=7032820012:AAGGjqvvnzQbU5rh0KSF1ofIR0oSmcqX-TY
+      - FLAG=krdu{t3l3gr4m_b0t_4nd_m1sk4_r1c4}

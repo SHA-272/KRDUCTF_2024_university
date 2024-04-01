@@ -1,0 +1,103 @@
+/* Основные стили страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Общий контейнер */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Стили заголовка */
+h2 {
+    color: #008cba;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Стили для ссылок */
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для административной информации */
+.admin-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Дополнительные стили для улучшения визуального оформления */
+p {
+    font-size: 16px;
+}
+
+/* Стили для специальных уведомлений */
+.notification {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+/* Общие стили страницы продолжают быть актуальными */
+
+/* Стилизация формы входа */
+form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилизация полей ввода */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Чтобы padding не увеличивал размер поля */
+}
+
+/* Стилизация кнопки отправки */
+input[type="submit"] {
+    width: 100%;
+    background-color: #008cba;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007ba7;
+}
+
+/* Дополнительный стиль заголовка для консистентности */
+h2 {
+    text-align: center;
+    color: #333;
+}
+

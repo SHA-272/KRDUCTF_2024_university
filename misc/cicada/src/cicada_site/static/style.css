@@ -1,0 +1,221 @@
+@font-face {
+  font-family: Consolas;
+  src: url(./consolas.ttf);
+}
+
+::selection {
+  background-color: var(--main-color);
+  color: black;
+}
+
+:root {
+  --main-color: #ffffff;
+  --main-color-tr: #5050504d;
+  --back-color-tr: #0000004d;
+  --font: "Consolas", monospace;
+  --viniette: inset 0 0 200px #000, inset 0 0 100px #000, inset 0 0 100px #000;
+}
+
+body {
+  background-color: #000000;
+  color: var(--main-color);
+  font-family: var(--font);
+  margin: 0;
+  padding: 50px 50px;
+}
+
+h1 {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 50px;
+}
+
+button {
+  background-color: black;
+  color: var(--main-color);
+  font-family: var(--font);
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button:hover {
+  color: black;
+  background-color: var(--main-color);
+}
+
+button:active {
+  color: var(--main-color);
+  background-color: black;
+  transform: translateY(4px);
+}
+
+a,
+a:active,
+a:visited {
+  color: var(--main-color);
+}
+
+li {
+  list-style-type: decimal;
+  font-size: 25px;
+}
+
+.hidden {
+  color: transparent;
+  background-color: transparent;
+  overflow: hidden;
+  display: none;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--main-color);
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100px;
+  }
+}
+
+.terminal {
+  overflow: hidden;
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    var(--back-color-tr),
+    var(--back-color-tr) 50%,
+    var(--main-color-tr) 50%,
+    var(--main-color-tr)
+  );
+  background-size: 100% 10px;
+  z-index: 1;
+  background-repeat: repeat;
+  animation: animatedBackground 4s linear infinite;
+
+  -webkit-box-shadow: var(--viniette);
+
+  -moz-box-shadow: var(--viniette);
+
+  box-shadow: var(--viniette);
+}
+
+.center {
+  text-align: center;
+}
+
+@keyframes blinking {
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+}
+
+.cicada {
+  grid-column: 2;
+  width: 100%;
+  max-width: 500px;
+  justify-self: center;
+
+  @media (max-width: 700px) {
+    grid-column: 1;
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 700px) {
+    grid-template-columns: auto;
+  }
+}
+
+.archive {
+  max-width: 300px;
+  width: 100%;
+  margin-top: 20vh;
+}
+
+#typewriter {
+  text-align: left;
+  font-family: var(--font);
+  text-wrap: wrap;
+  width: 100%;
+}
+
+#typewriter::after {
+  content: "_";
+  animation: blinking 1s step-end infinite;
+}
+
+.lain {
+  font-size: 5vw;
+}
+
+.lain-img {
+  width: 50%;
+  filter: grayscale();
+}
+
+.lain-back {
+  color: var(--main-color-tr);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+  z-index: -1;
+  font-size: 10mm;
+}
+
+@keyframes scroll {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -100vh;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.dump {
+  animation: scroll 10s linear infinite;
+  position: fixed;
+  font-size: 2vw;
+  width: max-content;
+  white-space: pre;
+}
+
+.final {
+  text-align: left;
+  font-family: var(--font);
+  text-wrap: wrap;
+  width: 50%;
+}

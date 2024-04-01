@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web2:
+    build: .
+    restart: unless-stopped
+    expose:
+      - 5000
+    volumes:
+      - ./static:/static
+      - ./templates:/templates
+    environment:
+      - FLAG=krdu{B3$T_h4ck3r_v_$hk0l3}
+      - SECRET_KEY=abc123
+    networks:
+      ctfnet:
+        ipv4_address: 10.0.0.52
+
+networks:
+  ctfnet:
+    external: true

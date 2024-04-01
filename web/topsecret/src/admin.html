@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>Номер дела</th>
+            <th>Статус</th>
+            <th>Действие</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Личное дело 362</td>
+            <td>Запись удалена</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Личное дело 303</td>
+            <td>Запись удалена</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Дело главы ОПГ 972</td>
+            <td>Доступно</td>
+            <td><a href="/chief">Перейти на страницу</a></td>
+        </tr>
+        <tr>
+            <td>Личное дело 152</td>
+            <td>В процессе</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Личное дело 275</td>
+            <td>Завершено</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Дело сотрудника 522</td>
+            <td>На рассмотрении</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Личное дело 817</td>
+            <td>Отклонено</td>
+            <td><a href="#">Подробнее</a></td>
+        </tr>
+        <tr>
+            <td>Дело партнера 574</td>
+            <td>Одобрено</td>
+            <td><a href="/partner">Перейти на страницу</a></td>
+        </tr>
+    <!-- data: check ///protocol1111 -->
+    </tbody>
+</table>
+
+</body>
+</html>
+

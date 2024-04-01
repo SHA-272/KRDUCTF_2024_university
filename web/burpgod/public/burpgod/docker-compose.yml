@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  web1:
+    build: .
+    restart: unless-stopped
+    expose:
+      - 5000
+    volumes:
+      - ./static:/static
+      - ./templates:/templates
+    environment:
+      - FLAG=krdu{132_POST_POST_231}
+    networks:
+      ctfnet:
+        ipv4_address: 10.0.0.51
+
+networks:
+  ctfnet:
+    external: true
